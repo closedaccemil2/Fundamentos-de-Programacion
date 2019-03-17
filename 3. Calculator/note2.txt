@@ -1,0 +1,88 @@
+TAREA :) en **C#**;
+
+- Modificar la Calculadora
+Para el Martes 19 12:00AM
+
+- Agregar un menu: If & Switch, Metodos void y metodos que devuelvan un valor dependiendo
+- Las varables deben ser privadas
+- Las utilizadas en la clase deben ser publicas
+- Utilizar Modificadores de Acceso
+- Para que sirve la palabra static?
+- Que es una array?
+- Como declarar una array?
+- Como acceder a las posiciones de un array?
+- Como saber la longitud de un array.
+- O_O Diagrama de Flujo para todo O_O
+(El flujo de la operacion)
+
+CRITERIOS DE ACEPTACION:
+- Debe utilizar If & Switch
+- Debe Utilizar Modificadores de Acceso
+- Debe utilizar Arrays
+- Debe tener un menu
+- Debe ser ciclico
+
+RESTRICCIONES:
+- No se puede cerrar la calculadora
+- Volver a llamar la funcion (que sea ciclica)
+- Debe guardar un registro de los resultados de las operaciones (HISTORIAL)
+- Guardar el historial en una variable o archivo de texto (de 4 posiciones)
+
+===============================================================================
+
+TAREA :) en C#;
+Progam.cs Casi Listo: 2/19/2019 12:15AM 
+Program.cs Listo: 2/19/2019 03:12PM
+Subido: 7 horas 15 minutos antes 2/19/2019 4:35PM 
+
+- Modificar la Calculadora
+Para el Martes 19 11:50PM
+
+- Agregar un menu: If & Switch, Metodos void y metodos que devuelvan un valor dep  (?)
+- Las variables deben ser privadas (?)
+- Las utilizadas en la clase deben ser publicas (?)
+- Utilizar Modificadores de Acceso (?)
+
+- Para que sirve la palabra static? (?)
+La palabra static (estático) es un método, un método estático puede llamarse sin tener que crear un objeto de dicha clase. Puede llamar a otro método siempre y cuando sea estático.
+Un método estático es lo más parecido a lo que son las funciones en los lenguajes estructurados (con la diferencia que se encuentra encapsulado en una clase)
+- Que es una array? (?)
+Un array, es un tipo de dato estructurado que permite almacenar un conjunto de datos homogeneo, es decir, todos ellos del mismo tipo y relacionados.
+
+https://www.tutorialspoint.com/csharp/csharp_arrays.htm
+- Como declarar una array? (?)
+Para declarar una matriz en C #, puede usar la siguiente sintaxis:
+
+~~~~ tipo-dato[] nombreArray; ~~~~
+
+Declarar una matriz no inicializa la matriz en la memoria. Cuando la variable de matriz se inicializa, puede asignar valores a la matriz.
+
+La matriz es un tipo de referencia, por lo que necesita usar la nueva palabra clave para crear una instancia de la matriz.
+
+// Array Unidimensional
+int[] array1 = new int[5];
+
+- Como acceder a las posiciones de un array? (?)
+Se accede a un elemento indexando el nombre de la matriz. Esto se hace colocando el índice del elemento entre corchetes después del nombre de la matriz.
+
+int []  arrayTest = new int[10];
+Console.WriteLine(arrayTest[7]);
+OUTPUT: 7
+- Como saber la longitud de un array?(?)
+
+- O_O Diagrama de Flujo para todo O_O
+(El flujo de la operacion)
+
+CRITERIOS DE ACEPTACION:
+- Debe utilizar If & Switch  (?)
+- Debe Utilizar Modificadores de Acceso
+- Debe utilizar Arrays
+- Debe tener un menu (?)
+- Debe ser ciclico (?)
+
+RESTRICCIONES:
+- No se puede cerrar la calculadora (?)
+- Volver a llamar la funcion (que sea ciclica) (?)
+- Debe guardar un registro de los resultados de las operaciones (HISTORIAL) (?)
+https://www.lucidchart.com/pages/es/simbolos-comunes-de-los-diagramas-de-flujo?a=1
+- Guardar el historial en una variable o archivo de texto (de 4 posiciones)(?)

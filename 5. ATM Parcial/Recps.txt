@@ -1,0 +1,11 @@
+Retiro Realizado el: 3/16/2019 12:06:55 PM, Cliente: Jared Doe, Monto Retirado: 3400
+Deposito Realizado el: 3/16/2019 2:15:50 PM, Cliente: John Doe, Monto Depositado: 567
+Retiro Realizado el: 3/16/2019 3:23:37 PM, Cliente: John Doe, Monto Retirado: 3400.5
+Retiro Realizado el: 3/16/2019 3:40:58 PM, Cliente: Jin Doe, Monto Retirado: 3600
+Deposito Realizado el: 3/16/2019 3:52:56 PM, Cliente: Jin Doe, Monto Depositado: 4500
+Retiro Realizado el: 3/16/2019 4:11:48 PM, Cliente: Simon Wurtz, Monto Retirado: 24500
+Deposito Realizado el: 3/16/2019 4:12:08 PM, Cliente: Simon Wurtz, Monto Depositado: 25100
+Transferencia Realizada el: 3/16/2019 4:12:43 PM Beneciad@: Simon Pit, N. de Cuenta: 34278767, Monto Retirado: 11500.92
+Retiro Realizado el: 3/16/2019 6:02:20 PM, Cliente: Emil Barranco, Monto Retirado: 4500.98
+Deposito Realizado el: 3/16/2019 10:04:23 PM, Cliente: John Doe, Monto Depositado: 450.27
+Transferencia Realizada el: 3/16/2019 10:04:47 PM Beneciad@: Jane Doe, N. de Cuenta: 34256749, Monto Retirado: 3450.78

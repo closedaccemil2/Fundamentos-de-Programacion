@@ -1,0 +1,150 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Mixed
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            // Ejemplos de Investigación 
+
+            // while Loops
+            int firstNum = 0;
+            while (firstNum < 6)
+            {
+                Console.WriteLine("\n ~~ while Loops ~~");
+                firstNum++;
+            }
+
+            Console.WriteLine("_____________________________________________");
+
+            // do-while Loops
+            string doCond = "\n Ejecución do {}";
+            int Count = 0;
+            do
+            {
+
+                Console.WriteLine("\n" + doCond);
+                Console.WriteLine("\n ~~~ do-while Loops ~~~");
+                Count++;
+
+            } while (Count < 6);
+
+            Console.WriteLine("_____________________________________________");
+
+            // for Loops
+            string[] firstArray = { "Alpha", "Bravo", "Delta", "Charlie" };
+            for (int e = 0; e < firstArray.Length; e++)
+            {
+                Console.WriteLine("\n Tipo: " + firstArray[e]);
+            }
+
+            Console.WriteLine("_____________________________________________");
+
+            // foreach Loops
+            int[] firstInt = { 22, 98, 45, 73, 53 };
+            foreach (int w in firstInt)
+            {
+                Console.WriteLine("\n Número de la Suerte: " + w);
+            }
+
+            Console.WriteLine("_____________________________________________");
+
+            // Serie Fibonnacci
+            // Este algoritmo desarrolla la serie Fibonnacci dependiendo de cuantos se requieran
+            int A, B, N, i, Aux; // Declaramos las variables
+            Console.Write("\n Introduzca la cantidad de números Fibonnacci que requiere: ");
+            N = int.Parse(Console.ReadLine()); // Leemos el número introducido
+            A = 0;
+            B = 1; // Inicializamos
+            for (i = 0; i < N; i++)  // Se repite para el número de veces deseado
+            {
+                Aux = A;
+                A = B; // Intercambio valores
+                B = Aux + A; // Calculo el nuevo valor
+                Console.WriteLine(Aux); // Imprimo el valor
+            }
+
+            Console.WriteLine("_____________________________________________");
+
+            // MCD en C#
+            // Leemos los dos numeros de donde sacaremos el MCD
+            Console.Write("\n Ingrese el primer numero: ");
+            int Num1 = Convert.ToInt32(Console.ReadLine());
+            Console.Write("\n Ingrese el segundo numero: ");
+            int Num2 = Convert.ToInt32(Console.ReadLine());
+
+            // Inicializando las variables del numero mayor y el numero menor
+            int X = Math.Max(Num1, Num2);
+            int Z = Math.Min(Num1, Num2);
+
+            // Inicializamos la variable del resultado
+            int Res;
+
+            // Bucle de la operacion
+            do
+            {
+
+                Res = Z; // Guardamos el divisor en el resultado
+                Z = X % Z; // Guardamos el numero restante en el divisor
+                X = Res; // El divisor pasa al dividendo
+            } while (Z != 0);
+
+            // Resultado del M.C.D.
+            Console.WriteLine("\n El MCD entre " + Num1 + " y " + Num2 + " es: " + Res);
+
+            Console.WriteLine("_____________________________________________");
+
+            // Factorial de un Numero
+            Console.Write("\n ~ Introduzca el numero del que sea extraer el Factorial: ");
+            int disNum = int.Parse(Console.ReadLine());
+            int indexNum = 1;
+            for (int facNum = disNum; facNum > 0; facNum--)
+            {
+                indexNum = facNum * indexNum;
+            }
+            int Resp = indexNum;
+            Console.WriteLine("\n ~ Resultado: " + Resp);
+
+            Console.WriteLine("_____________________________________________");
+
+            // Factorial en Modo Recursivo
+            int Fact = 0;
+            Fact = Factorial(5);
+            Console.WriteLine("El Factorial es: " + Fact);
+            Exceps();
+        }
+
+        private static int Factorial(int factNum)
+        {
+            if (factNum == 0) 
+                return 1;
+            return factNum * Factorial(factNum - 1);
+        }
+
+        static void Exceps()
+        {
+            // Division con detección de errores
+            Console.Write("\n ~ Digite el Dividendo: ");
+            int num1 = int.Parse(Console.ReadLine());
+            Console.Write("\n ~ Digite el Divisor: ");
+            int num2 = int.Parse(Console.ReadLine());
+            try
+            {
+                int result;
+                result = num1 / num2;
+                Console.WriteLine("\n {0} dividido por {1} = {2}", num1, num2, result);
+            }
+            catch (DivideByZeroException e)
+            {
+                Console.WriteLine("\n No puedes dividir por 0.");
+                Console.WriteLine("_____________________________________________");
+                Exceps();
+            }
+        }
+    }
+}

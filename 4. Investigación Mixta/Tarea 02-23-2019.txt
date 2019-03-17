@@ -1,0 +1,31 @@
+Tarea de C#:
+
+Investigar:
+
+- Estructuras de repetición y realizar ejemplos practicos para mostrar en clase:
+
+•Bucle while
+•Bucle do-while
+•Bucle for
+•Bucle foreach
+Investigar:
+-   Serie de fibonnaci, MCD, factorial de un numero.
+- ¿Qué es la Recursividad? Mostrar ejemplos en clase sobre metodos recursivos.
+- ¿Qué es una Excepción? 
+- Manejo de las Excepciones ejemplo practico sobre el uso de excepciones.
+
+Tareas Practicas:
+
+1. Crear un programa que solicite el año de nacimiento de una persona y retorne la edad haciendo uso de funciones o procedimientos.
+
+2. Cree un programa que contenga el siguiente menú:
+
+a) Calcular el Factorial de un Numero.*Debe de Pedir un Numero para calcular el Factorial.
+
+b) Obtener MCD. *Debe de pedir dos numeros para calcular el MCD.
+
+c) Cálculo de IMC (Índice de Masa Corporal). Investigar que se necesita para calcular el IMC y pedir los datos necesarios.
+
+d) Salir.
+
+**Nota el Programa debe de ser ciclico utilizando recurcividad. Utilice metodos para hacer cada una de las funciones especificadas. utilice todo lo que se ha estado viendo en clase hasta el momento. Si es posible repase todo el contenido y lo mandado a investigar hasta el momento.

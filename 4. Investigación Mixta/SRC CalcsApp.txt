@@ -1,0 +1,198 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace CalcsApp
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Menu();
+        }
+
+        static void Menu() { 
+            // Sets Básicos
+            Console.Clear();
+            Console.Title = "CalcsApp";
+            Console.WriteLine("~~~~~~ CalcsApp | 186076 | 06/03/2019 ~~~~~~");
+            Console.WriteLine("\n ~ Escoja la Función:");
+            Console.WriteLine("\n 1. Calculo de Edad");
+            Console.WriteLine("\n 2. Factorial");
+            Console.WriteLine("\n 3. Máximo Común Divisor");
+            Console.WriteLine("\n 4. Indice de Masa Corporal");
+            Console.WriteLine("\n 5. Salir");
+            Console.WriteLine("\n ------------------------------");
+            Console.Write("\n ~ Herramienta: ");
+            // Variables de Introducción de Datos
+            int Ask = int.Parse(Console.ReadLine());
+
+            try
+            {
+                switch (Ask)
+                {
+                    case 1:
+                        CalcEdad();
+                        break;
+                    case 2:
+                        Factorial();
+                        break;
+                    case 3:
+                        MCD();
+                        break;
+                    case 4:
+                        IMC();
+                        break;
+                    case 5:
+                        Console.WriteLine("\n ~ Saliendo....");
+                        Console.ReadKey();
+                        break;
+                    default:
+                        Console.WriteLine("\n ~ Ocurrio un error, sera enviado al menu...");
+                        Menu();
+                        break;
+                }
+            }
+            catch (ArithmeticException)
+            {
+                Menu();
+            }
+            catch(FormatException)
+            {
+                Menu();
+            }
+            catch(Exception ex)
+            {
+                Menu();
+            }
+        }
+
+        // Metodo para calcular la edad
+        static void CalcEdad()
+        {
+            Console.Write("\n ~ Inserta tu fecha de nacimiento para Calcular tu Edad: ");
+            // Variable de tipo Fecha que contiene el Año de Nacimiento (input)
+            DateTime añoNac = DateTime.Parse(Console.ReadLine());
+            // Variable de tipo Fecha que contiene el Año de Nacimiento (converted from input)
+            DateTime BirthDay = Convert.ToDateTime(añoNac);
+            // Variable que contiene la Fecha de hoy
+            DateTime Today = DateTime.Today;
+            // Age sera igual al año actual menos el año de nacimiento
+            int Age = Today.Year - BirthDay.Year;
+            // Si el año de nacimiento es mayor al valor del dia de hoy menos el valor de Age
+            // Decrementar Age hasta conseguir la edad exacta
+            if (BirthDay > Today.AddYears(-Age))
+                Age--;
+            Console.WriteLine("\n ~ Tu edad es de: " + Age + " años.");
+            Console.WriteLine("\n ------------------------------"); 
+            // Metodo de repeticion de la herramienta con recursividad
+            Console.Write("\n Desea volver a usar la herramienta Calculo de Edad? ");
+            string rptFunc = Console.ReadLine();
+            if (rptFunc == "Si" || rptFunc == "si" || rptFunc == "s" || rptFunc == "S")
+                CalcEdad();
+            Menu();
+        }
+
+        // Metodo para sacar el Factorial de un numero
+        static void Factorial()
+        {
+            // Factorial de un Numero
+            Console.Write("\n ~ Introduzca el numero del que sea extraer el Factorial: ");
+            try
+            {
+                int disNum = int.Parse(Console.ReadLine());
+                int indexNum = 1;
+                for (int facNum = disNum; facNum > 0; facNum--)
+                    indexNum = facNum * indexNum;
+                int Resp = indexNum;
+                Console.WriteLine("\n ~ Resultado: " + Resp);
+            }
+            catch (FormatException)
+            {
+                Console.WriteLine("#### Debe introducir el numero de la funcion que desea emplear! ####");
+                Factorial();
+            }
+
+            Console.WriteLine("\n ------------------------------");
+            // Metodo de repeticion de la herramienta con recursividad
+            Console.Write("\n Desea volver a usar la herramienta Factorial? ");
+            string rptFunc = Console.ReadLine();
+            if (rptFunc == "Si" || rptFunc == "si" || rptFunc == "s" || rptFunc == "S")
+                Factorial();
+            Menu();
+        }
+
+        //Metodo para extraer el Maximo Comun Divisor
+        static void MCD()
+        {
+            // MCD en C#
+            // Leemos los dos numeros de donde sacaremos el MCD
+            Console.Write("\n Ingrese el primer numero: ");
+            int Num1 = Convert.ToInt32(Console.ReadLine());
+            Console.Write("\n Ingrese el segundo numero: ");
+            int Num2 = Convert.ToInt32(Console.ReadLine());
+
+            // Inicializando las variables del numero mayor y el numero menor
+            int X = Math.Max(Num1, Num2);
+            int Z = Math.Min(Num1, Num2);
+
+            // Inicializamos la variable del resultado
+            int Res;
+
+            // Bucle de la operacion
+            do
+            {
+                Res = Z; // Guardamos el divisor en el resultado
+                Z = X % Z; // Guardamos el numero restante en el divisor
+                X = Res; // El divisor pasa al dividendo
+            } while (Z != 0);
+            // Resultado del M.C.D.
+            Console.WriteLine("\n El MCD entre " + Num1 + " y " + Num2 + " es: " + Res);
+            Console.WriteLine("\n ------------------------------");
+            // Metodo de repeticion de la herramienta con recursividad
+            Console.Write("\n Desea volver a usar la herramienta MCD? ");
+            string rptFunc = Console.ReadLine();
+            if (rptFunc == "Si" || rptFunc == "si" || rptFunc == "s" || rptFunc == "S")
+                MCD();
+            Menu();
+        }
+
+        static void IMC()
+        {
+            // El Indice de Masa Corporal ideal/normal se encuentra entre 18.5 y 25 ~ Peso (kg) / Altura * Altura (m)
+            // Variables sin asignar de Altura, Peso y a lo que equivaldra el IMC
+            double Altura, Peso, InMC; 
+            Console.Write("\n ~ Digite su Peso: ");
+            Peso = double.Parse(Console.ReadLine());
+            Console.Write("\n ~ Digite su Altura: ");
+            Altura = double.Parse(Console.ReadLine());
+
+            // El IMC sera igual al peso dividido por el cuadrado de la altura
+            InMC = (Peso / (Altura * Altura));
+            // Display del calculo total del IMC
+            Console.WriteLine("\n ~ El Indice de Masa Corporal es de: "+ InMC);
+
+            //Clasificaciones del IMC dependiendo del resultado obtenido
+            if (InMC < 18.5) Console.WriteLine("\n ~ Peso por debajo de lo normal");
+            else if ((InMC == 18.5) || (InMC == 25)) Console.WriteLine("\n ~ Peso normal");
+            
+            if ((InMC > 25) || (InMC == 30)) Console.WriteLine("\n ~ Sobre Peso");
+            else if ((InMC > 30) || (InMC == 35)) Console.WriteLine("\n ~ Grado de Obesidad I");
+            
+            if ((InMC > 35) || (InMC == 40)) Console.WriteLine("\n ~ Grado de Obesidad II");
+            else if (InMC > 40) Console.WriteLine("\n ~ Grado de Obesidad III");
+
+            Console.WriteLine("\n ------------------------------");
+            // Metodo de repeticion de la herramienta con recursividad
+            Console.Write("\n Desea volver a usar la herramienta MCD? ");
+            string rptFunc = Console.ReadLine();
+            if (rptFunc == "Si" || rptFunc == "si" || rptFunc == "s" || rptFunc == "S")
+                Program.IMC();
+            Menu();
+        }
+        
+
+    }
+}

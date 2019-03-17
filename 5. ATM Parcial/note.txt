@@ -1,0 +1,43 @@
+
+Recoger informacion basica / Registrarse y monto inicial de la cuenta, guardar y cancelar
+Menu del cajero, validacion de informacion introducida
+Utilizar funcion Math.random() para el numero de cuenta, fondos insuficientes 
+Login
+Menu debe tener consulta, retiro, transferencia, informacion de la cuenta, añadir beneficiario
+Imprimir recibo: historial(System.IO)
+Averiguar con la clase file
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Practica del parcial, para entregar (cuando el profesor coordine)
+
+Hacer un cajero automático
+
+Debe contener las siguientes operaciones:
+
+Consulta de balance
+Transferencia de balance a otras cuentas
+
+Añadir beneficiario
+Que haga retiros
+Cambio de divisas
+
+Tres divisas más importantes y enseñar a como están
+
+Guardar historial de las transacciones 
+
+Que pida al empezar para configurar:
+
+Pida nombre, apellido, fecha de nacimiento, usuario y contraseña, pedir validaciones
+
+Opción guardar o cancelar
+
+Poner el monto que existe en la cuenta
+
+
+Pregunte si quieres comprobante o no? 
+Que se imprima por consola
+Investigar la clase file
+
+Para poder leer y escribir un documento y guardarlo en la ruta indicada. 
+(Para los recibos)
