@@ -1,0 +1,60 @@
+﻿  ---------------------------------------------------------------------------------------------------------------------------------------
+ | Nombre: Memorias | Autor: Rafael Vito | Año: 2016 | Genero: Ciencia Ficción | Editorial: Prisma | Tipo: Literario | Calif: 3.7 
+  ---------------------------------------------------------------------------------------------------------------------------------------
+ | Nombre: La Casa Blanca | Autor: Ana Castillo | Año: 2017 | Genero: Política | Editorial: NewsGlobal | Tipo: Ilustrado | Calif: 2.8 
+  ---------------------------------------------------------------------------------------------------------------------------------------
+ | Nombre: La Vida de Bianca | Autor: Jenna Ríos | Año: 2017 | Genero: Biografia | Editorial: NewsGlobal | Tipo: Biografico | Calif: 4.7 
+  ---------------------------------------------------------------------------------------------------------------------------------------
+ | Nombre: Vacío | Autor: Diego Hazel | Año: 2018 | Genero: Autoayuda | Editorial: Prisma | Tipo: Juveniles | Calif: 4.8 
+  ---------------------------------------------------------------------------------------------------------------------------------------
+ | Nombre: Sueños de Tokyo | Autor: Jay Nyte | Año: 2015 | Genero: Ciencia Ficción | Editorial: Prisma | Tipo: Literario | Calif: 3.9 
+  ---------------------------------------------------------------------------------------------------------------------------------------
+ | Nombre: Memorias | Autor: Rafael Vito | Año: 2016 | Genero: Ciencia Ficción | Editorial: Prisma | Tipo: Literario | Calif: 3.7 
+  ---------------------------------------------------------------------------------------------------------------------------------------
+ | Nombre: La Casa Blanca | Autor: Ana Castillo | Año: 2017 | Genero: Política | Editorial: NewsGlobal | Tipo: Ilustrado | Calif: 2.8 
+  ---------------------------------------------------------------------------------------------------------------------------------------
+ | Nombre: La Vida de Bianca | Autor: Jenna Ríos | Año: 2017 | Genero: Biografia | Editorial: NewsGlobal | Tipo: Biografico | Calif: 4.7 
+  ---------------------------------------------------------------------------------------------------------------------------------------
+ | Nombre: Vacío | Autor: Diego Hazel | Año: 2018 | Genero: Autoayuda | Editorial: Prisma | Tipo: Juveniles | Calif: 4.8 
+  ---------------------------------------------------------------------------------------------------------------------------------------
+ | Nombre: Sueños de Tokyo | Autor: Jay Nyte | Año: 2015 | Genero: Ciencia Ficción | Editorial: Prisma | Tipo: Literario | Calif: 3.9 
+  ---------------------------------------------------------------------------------------------------------------------------------------
+ | Nombre: Memorias | Autor: Rafael Vito | Año: 2016 | Genero: Ciencia Ficción | Editorial: Prisma | Tipo: Literario | Calif: 3.7 
+  ---------------------------------------------------------------------------------------------------------------------------------------
+ | Nombre: La Casa Blanca | Autor: Ana Castillo | Año: 2017 | Genero: Política | Editorial: NewsGlobal | Tipo: Ilustrado | Calif: 2.8 
+  ---------------------------------------------------------------------------------------------------------------------------------------
+ | Nombre: La Vida de Bianca | Autor: Jenna Ríos | Año: 2017 | Genero: Biografia | Editorial: NewsGlobal | Tipo: Biografico | Calif: 4.7 
+  ---------------------------------------------------------------------------------------------------------------------------------------
+ | Nombre: Vacío | Autor: Diego Hazel | Año: 2018 | Genero: Autoayuda | Editorial: Prisma | Tipo: Juveniles | Calif: 4.8 
+  ---------------------------------------------------------------------------------------------------------------------------------------
+ | Nombre: Sueños de Tokyo | Autor: Jay Nyte | Año: 2015 | Genero: Ciencia Ficción | Editorial: Prisma | Tipo: Literario | Calif: 3.9 
+  ---------------------------------------------------------------------------------------------------------------------------------------
+ | Nombre: Memorias | Autor: Rafael Vito | Año: 2016 | Genero: Ciencia Ficción | Editorial: Prisma | Tipo: Literario | Calif: 3.7 
+  ---------------------------------------------------------------------------------------------------------------------------------------
+ | Nombre: La Casa Blanca | Autor: Ana Castillo | Año: 2017 | Genero: Política | Editorial: NewsGlobal | Tipo: Ilustrado | Calif: 2.8 
+  ---------------------------------------------------------------------------------------------------------------------------------------
+ | Nombre: La Vida de Bianca | Autor: Jenna Ríos | Año: 2017 | Genero: Biografia | Editorial: NewsGlobal | Tipo: Biografico | Calif: 4.7 
+  ---------------------------------------------------------------------------------------------------------------------------------------
+ | Nombre: Vacío | Autor: Diego Hazel | Año: 2018 | Genero: Autoayuda | Editorial: Prisma | Tipo: Juveniles | Calif: 4.8 
+  ---------------------------------------------------------------------------------------------------------------------------------------
+ | Nombre: Sueños de Tokyo | Autor: Jay Nyte | Año: 2015 | Genero: Ciencia Ficción | Editorial: Prisma | Tipo: Literario | Calif: 3.9 
+  ---------------------------------------------------------------------------------------------------------------------------------------
+ | Nombre: Memorias | Autor: Rafael Vito | Año: 2016 | Genero: Ciencia Ficción | Editorial: Prisma | Tipo: Literario | Calif: 3.7 
+  ---------------------------------------------------------------------------------------------------------------------------------------
+ | Nombre: La Casa Blanca | Autor: Ana Castillo | Año: 2017 | Genero: Política | Editorial: NewsGlobal | Tipo: Ilustrado | Calif: 2.8 
+  ---------------------------------------------------------------------------------------------------------------------------------------
+ | Nombre: La Vida de Bianca | Autor: Jenna Ríos | Año: 2017 | Genero: Biografia | Editorial: NewsGlobal | Tipo: Biografico | Calif: 4.7 
+  ---------------------------------------------------------------------------------------------------------------------------------------
+ | Nombre: Vacío | Autor: Diego Hazel | Año: 2018 | Genero: Autoayuda | Editorial: Prisma | Tipo: Juveniles | Calif: 4.8 
+  ---------------------------------------------------------------------------------------------------------------------------------------
+ | Nombre: Sueños de Tokyo | Autor: Jay Nyte | Año: 2015 | Genero: Ciencia Ficción | Editorial: Prisma | Tipo: Literario | Calif: 3.9 
+  ---------------------------------------------------------------------------------------------------------------------------------------
+ | Nombre: Memorias | Autor: Rafael Vito | Año: 2016 | Genero: Ciencia Ficción | Editorial: Prisma | Tipo: Literario | Calif: 3.7 
+  ---------------------------------------------------------------------------------------------------------------------------------------
+ | Nombre: La Casa Blanca | Autor: Ana Castillo | Año: 2017 | Genero: Política | Editorial: NewsGlobal | Tipo: Ilustrado | Calif: 2.8 
+  ---------------------------------------------------------------------------------------------------------------------------------------
+ | Nombre: La Vida de Bianca | Autor: Jenna Ríos | Año: 2017 | Genero: Biografia | Editorial: NewsGlobal | Tipo: Biografico | Calif: 4.7 
+  ---------------------------------------------------------------------------------------------------------------------------------------
+ | Nombre: Vacío | Autor: Diego Hazel | Año: 2018 | Genero: Autoayuda | Editorial: Prisma | Tipo: Juveniles | Calif: 4.8 
+  ---------------------------------------------------------------------------------------------------------------------------------------
+ | Nombre: Sueños de Tokyo | Autor: Jay Nyte | Año: 2015 | Genero: Ciencia Ficción | Editorial: Prisma | Tipo: Literario | Calif: 3.9 

@@ -1,0 +1,23 @@
+     ~~~~~~~~~~~~~~~~~~~~ Historial de Prestamos ~~~~~~~~~~~~~~~~~~~~~ 
+
+     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ * ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    |               Datos del Estudiante: 
+    |
+    |               ~ Nombre y Apellido: 
+    |               ~ Matrícula: 
+    |               ~ Carrera: 
+    |               ~ Libro: 
+    |               ~ Fecha de Inicio Prestamo: 
+    |               ~ Fecha de Fin Prestamo: 
+    |
+     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ * ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    |               Datos del Estudiante: 
+    |
+    |               ~ Nombre y Apellido: 
+    |               ~ Matrícula: 
+    |               ~ Carrera: 
+    |               ~ Libro: 
+    |               ~ Fecha de Inicio Prestamo: 
+    |               ~ Fecha de Fin Prestamo: 
+    |
+     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ * ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
